@@ -14,7 +14,8 @@ public class PersonHello {
 
         }
 
-        for (int i = 5; i < 5; i-- ){
+        for (int i =persons.length -1; i > -1; i--){
+            System.out.println("Cześć " + persons[i].getName());
 
 
         }
